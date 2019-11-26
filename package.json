@@ -1,0 +1,34 @@
+{
+  "name": "silver-disco",
+  "version": "1.0.0",
+  "description": "Automating UI",
+  "main": "nightwatch.conf.js",
+  "scripts": {
+    "test": "nightwatch",
+    "prettier": "prettier --config .prettierrc --write src/**/*.js",
+    "clean": "rm -rf node_modules/ && rm package-lock.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drivaro/silver-disco.git"
+  },
+  "keywords": [
+    "test",
+    "UI",
+    "Automation",
+    "Nightwatch"
+  ],
+  "author": "Daniel Rivarola",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drivaro/silver-disco/issues"
+  },
+  "homepage": "https://github.com/drivaro/silver-disco#readme",
+  "dependencies": {
+    "prettier": "^1.19.1"
+  },
+  "devDependencies": {
+    "chromedriver": "^78.0.1",
+    "nightwatch": "^1.2.4"
+  }
+}
