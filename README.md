@@ -5,11 +5,21 @@ UI Automation using [Nightwatch.js](https://nightwatchjs.org/)
 Usage:
 Once you have the app pulled into your machine, you can start running tests
 
+One time install: Node
+
+```
+> brew install node
+```
+
 Run Tests
 
 ```
 > npm run test
 ```
+
+---
+
+Additional options:
 
 Remove package-lock and node_modules
 
